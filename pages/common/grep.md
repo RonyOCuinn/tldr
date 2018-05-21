@@ -15,6 +15,10 @@
 
 `grep -rI {{search_string}} .`
 
+- Search recursively (including symlinks) in current directory for an exact string:
+
+`grep -R {{search_string}} .`
+
 - Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`):
 
 `grep -E {{^regex$}} {{path/to/file}}`
